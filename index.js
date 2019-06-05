@@ -10,5 +10,5 @@ function loadIssues() {
 
   var result = template(issue);
   document.getElementsByTagName("main")[0].innerHTML += result;
-  
+
 }
